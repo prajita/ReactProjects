@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+div.note {
+  background-color: #ddffdd;
+  border-left: none;
+  height: 150px;
+  width : 150px;
+  font-family: "Bradley Hand ITC", "Comic Sans MS";
+  font-weight: bold;
+  margin-left: 20px ;
+  position: relative;
+  box-shadow: 5px 5px 15px 0 rgba(0,0,0,.2);
+}
+div.board{
+  background-color: brown;
+  width: 100%;
+  background-image: url('./mountains.jpg');
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
