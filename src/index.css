@@ -5,21 +5,22 @@ body {
 }
 
 div.note {
-  background-color: #ddffdd;
+  background-color: gold;
   border-left: none;
   height: 150px;
   width : 150px;
   font-family: "Bradley Hand ITC", "Comic Sans MS";
   font-weight: bold;
   margin-left: 20px ;
-  position: relative;
+  position: absolute;
   box-shadow: 5px 5px 15px 0 rgba(0,0,0,.2);
 }
 div.board{
-  background-color: brown;
+  /* background-color: rgb(158, 54, 6); */
   width: 100%;
-  background-image: url('./mountains.jpg');
-  height: 100%;
+  /* background-image: url('./mountains.jpg'); */
+  background: rgb(204, 15, 24);
+  height: 1500px;
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
